@@ -28,40 +28,49 @@ function App() {
 
         {/* En-tête */}
         <header className="bg-primary text-white text-center py-5">
-          <h1>Bienvenue sur mon application</h1>
-          <p>Un petit sous-titre accrocheur ici</p>
+          <h1>Bienvenue </h1>
+          <p> les cartes de mes voyages</p>
+          
         </header>
 
         {/* Trois cartes */}
-        <Container className="d-flex justify-content-around mt-4">
+        <Container className="mt-5 d-flex justify-content-around"> 
+
+
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="https://www.planetware.com/wpimages/2020/01/england-in-pictures-beautiful-places-to-photograph-london.jpg"  />
+      <Card.Body>
+        <Card.Title>England</Card.Title>
+        <Card.Text>
+          est un pays constitutif du Royaume-Uni, situé sur l'île de Grande-Bretagne, et est la plus grande des quatre nations qui composent le Royaume-Uni.
+        
+          
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+  
+
+
+
+
           <Card style={{ width: '18rem' }}>
-            <Card.Header>Carte 1</Card.Header>
+           <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShmpg90IC6TSmzZxaALbTE-Ubvfryfei095w&s" />
             <Card.Body>
-              <Card.Title>Titre 1</Card.Title>
+              <Card.Title>France</Card.Title>
               <Card.Text>
-                Texte de présentation de la carte 1.
+                La France est un pays d'Europe occidentale, connu pour sa riche histoire, sa culture et sa gastronomie.
               </Card.Text>
               <Button variant="primary">Action</Button>
             </Card.Body>
           </Card>
 
           <Card style={{ width: '18rem' }}>
-            <Card.Header>Carte 2</Card.Header>
-            <Card.Body>
-              <Card.Title>Titre 2</Card.Title>
-              <Card.Text>
-                Une autre description, différente pour la carte 2.
-              </Card.Text>
-              <Button variant="primary">Action</Button>
-            </Card.Body>
-          </Card>
-
-          <Card style={{ width: '18rem' }}>
-            <Card.Header>Carte 3</Card.Header>
+           <Card.Img variant="top" src= "https://media.istockphoto.com/id/1499025854/fr/photo/navires-touristiques-touristiques-dans-la-ville-distanbul-turquie.jpg?s=612x612&w=0&k=20&c=FwKWZvgtDeX-Q0oZ3LUXF7e_Y-IHm4vWLqFZHxmDpto=" />
             <Card.Body>
               <Card.Title>Titre 3</Card.Title>
               <Card.Text>
-                Quelques mots pour expliquer la carte 3.
+                Istanbul est la plus grande ville de Turquie et un important centre culturel et économique.
               </Card.Text>
               <Button variant="primary">Action</Button>
             </Card.Body>
